@@ -1,25 +1,35 @@
+
 # Timer in Python
 
 This is a Timer Application in Python using PyQt5.
 
-## Code 
+## Set it in your machine
 
-### Install Virtualenv 
+- Install uv and Python 3.12
+
+- Clone the repository
+
+```bash
+mkdir -p ~/Dev/timer
+cd ~/Dev/timer
+git clone https://github.com/arvind-4/timer-in-pyqt5.git .
 ```
-pip install virtualenv
-cd /path/to/folder
-mkdir timer
-cd timer
-virtualenv .
+
+- Set up the virtual environment
+
+```bash
+cd ~/Dev/timer
+uv venv --python=python3.12
 ```
-### Activate the Virtualenv
+
+- Install the dependencies
+
+```bash
+uv sync
 ```
-source scripts/activate
-```
-### Install Dependencies & Run the Code
-```
-mkdir src && cd src
-git clone https://github.com/Arvind-4/Audio-Player-with-PyQt5.git .
-pip install -r requirements.txt
-python main.py
+
+- Run the application
+
+```bash
+uv run src/main.py
 ```
