@@ -178,7 +178,6 @@ instance/
 docs/_build/
 target/
 .ipynb_checkpoints
-.python-version
 celerybeat-schedule
 *.sage.py
 .env
